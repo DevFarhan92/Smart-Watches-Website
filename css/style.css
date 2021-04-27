@@ -1,0 +1,272 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap');
+
+body {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #3b4045;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin: 0px;
+}
+#nav .nav-item a{
+    color: #444 !important;
+
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.navbar-brand {
+    color: #444;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1;
+}
+
+.sectionOne {
+    padding: 100px 0;
+}
+
+.font-size-60 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.btn-main {
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px 40px;
+    display: inline-block;
+    background-color: #f9a743;
+	box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);}
+ .btn-main:hover, .btn-main:focus {
+    background-color: #f9a743;
+    color: #fff;
+}
+
+.heading h2 {
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+.section {
+    padding: 100px 0;
+}
+.heading {
+    text-align: center;
+    color: #777777;
+    padding-bottom: 70px;
+}
+
+.section {
+    padding: 100px 0;
+}
+.bg-orange {
+    background: #f9a743;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subheading {
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.heading {
+    text-align: center;
+    color: #777777;
+    padding-bottom: 70px;
+}
+
+
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+h2 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+h2 span{
+  color: red;
+  font-size: 100%;
+  position: initial;
+}
+.block {
+    padding: 20px;
+}
+
+.owl-nav
+	{
+    display: none;
+
+}
+
+.bg-1 {
+    background-image: url(../images/call-to-action.jpg);
+}
+.call-to-action {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section {
+    padding: 100px 0;
+}
+.bg-opacity {
+    position: relative;
+}
+
+.subheading {
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+}
+.text-white {
+    color: #fff!important;
+}
+
+.input-group {
+    margin-top: 30px;
+    position: relative;
+}
+
+.input-group input {
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 15px;
+    box-shadow: none;
+    display: table-cell;
+}
+
+.input-group .btn-submit {
+    padding: 10.5px 40px !important;
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    top: 0;
+    right: 0;
+}
+.btn-main:hover, .btn-main:focus {
+    background-color: #f9a743;
+    color: #fff;
+}
+
+footer .footer-logo {
+    color: #555;
+    display: block;
+}
+
+a, a:active, a:focus, a:active {
+    text-decoration: none;
+}
+a {
+    transition: all 0.2s ease-in-out 0s;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer p.copyright-text {
+    font-weight: 300;
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px 0px;
+}
+
+.footer-menu a {
+    font-size: 14;
+    font-weight: 700;
+    color: #444;
+    padding: 10px;
+}
+footer p.copyright-text a:hover {
+    text-decoration: none;
+}
+footer p.copyright-text a {
+    color: #282828;
+}
